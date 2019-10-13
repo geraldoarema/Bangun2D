@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_rumus"
+        android:title="Rumus"
+        android:icon="@drawable/rumus_logo"
+        android:state_checked="false"/>
+    <item android:id="@+id/action_hitung"
+        android:title="Perhitungan"
+        android:icon="@drawable/hitung_logo" />
+</menu>
