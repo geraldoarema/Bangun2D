@@ -7,7 +7,7 @@
     tools:context=".fragment.HitungFragment">
 
     <FrameLayout
-        android:id="@+id/container_rumus"
+        android:id="@+id/container_hitung"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
     </FrameLayout>
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/fragmentHitung_lingkaran"
         android:layout_width="58dp"
         android:layout_height="58dp"
         android:src="@drawable/a"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/fragmentHitung_segitiga"
         android:layout_width="58dp"
         android:layout_height="58dp"
         android:src="@drawable/segitiga_siku_siku"

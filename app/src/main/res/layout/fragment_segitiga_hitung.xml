@@ -62,7 +62,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <EditText
-        android:id="@+id/inputA"
+        android:id="@+id/fragmentSegitigaHitung_inputA"
         android:layout_width="70dp"
         android:layout_height="25dp"
         android:ems="10"
@@ -88,7 +88,7 @@
         app:layout_constraintGuide_percent="0.4" />
 
     <EditText
-        android:id="@+id/inputB"
+        android:id="@+id/fragmentSegitigaHitung_inputB"
         android:layout_width="70dp"
         android:layout_height="25dp"
         android:ems="10"
@@ -100,7 +100,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <EditText
-        android:id="@+id/inputC"
+        android:id="@+id/fragmentSegitigaHitung_inputC"
         android:layout_width="70dp"
         android:layout_height="25dp"
         android:ems="10"
@@ -112,7 +112,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <Button
-        android:id="@+id/hasilKeliling"
+        android:id="@+id/fragmentSegitigaHitung_hasilKeliling"
         android:layout_width="85dp"
         android:layout_height="35dp"
         android:text="HASIL"
@@ -123,7 +123,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <TextView
-        android:id="@+id/outputKeliling"
+        android:id="@+id/fragmentSegitigaHitung_hasilKelilingText"
         android:layout_width="100dp"
         android:layout_height="35dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline19"

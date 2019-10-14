@@ -7,7 +7,7 @@
     tools:context=".fragment.SegitigaFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/fragmentSegitiga_segitiga"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/rumus_segitiga"
@@ -32,7 +32,7 @@
         app:layout_constraintGuide_percent="0.45" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/fragmentRumus_rumusLuas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="L = ( 1/2 x A x T )"
@@ -43,12 +43,12 @@
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/fragmentRumus_rumusKeliling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="K = A + B + C"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentRumus_rumusLuas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />

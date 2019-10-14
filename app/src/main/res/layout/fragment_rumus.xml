@@ -10,6 +10,7 @@
         android:id="@+id/container_rumus"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#03A9F4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -20,7 +21,7 @@
     </FrameLayout>
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/fragmentRumus_lingkaran"
         android:layout_width="58dp"
         android:layout_height="58dp"
         android:src="@drawable/a"
@@ -30,7 +31,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/fragmentRumus_segitiga"
         android:layout_width="58dp"
         android:layout_height="58dp"
         android:src="@drawable/segitiga_siku_siku"
@@ -50,6 +51,7 @@
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#2196F3"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.9" />
 

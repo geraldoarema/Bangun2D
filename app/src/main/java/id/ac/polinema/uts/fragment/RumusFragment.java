@@ -33,8 +33,8 @@ public class RumusFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_rumus, container, false);
-        segitiga = view.findViewById(R.id.imageView8);
-        lingkaran = view.findViewById(R.id.imageView7);
+        segitiga = view.findViewById(R.id.fragmentRumus_segitiga);
+        lingkaran = view.findViewById(R.id.fragmentRumus_lingkaran);
 
         segitiga.setOnClickListener(new View.OnClickListener() {
             @Override
